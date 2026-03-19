@@ -83,7 +83,7 @@ function PortfolioPage() {
 // ─────────────────────────────────────────────────
 function Layout() {
   return (
-    <div className="flex min-h-screen bg-light-bg dark:bg-dark-bg overflow-y-auto">
+    <div className="flex min-h-screen bg-light-bg dark:bg-dark-bg overflow-hidden">
       {/* Sidebar — md and above */}
       <Sidebar
         resumePath={DATA.resumePath}
@@ -116,4 +116,6 @@ export default function App() {
   return (
     <ThemeProvider>
       <Layout />
-    </
+    </ThemeProvider>
+  );
+}
