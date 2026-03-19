@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    @apply w-1;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-accent rounded-full;
+  }
+}
+
+@layer components {
+  /* Sidebar width animates on hover — must be CSS, not Tailwind alone */
+  .sidebar {
+    width: 64px;
+    transition: width 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+  }
+  .sidebar:hover {
+    width: 218px;
+  }
+
+  .nav-label {
+    opacity: 0;
+    transform: translateX(-8px);
+    transition:
+      opacity 0.18s 0.06s,
+      transform 0.18s 0.06s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .sidebar:hover .nav-label {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
