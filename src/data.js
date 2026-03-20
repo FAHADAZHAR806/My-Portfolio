@@ -1,21 +1,24 @@
 // ✏️  Edit all your personal content here
 import Fahad from "./assets/picofme.png";
+import Resume from "./assets/Fahad Azhar.pdf";
 
 export const DATA = {
   name: "Fahad Azhar",
   roles: [
+    "Software Engineer",
     "Front-End Developer",
     "React Specialist",
     "Aspiring Full-Stack Developer",
   ],
-  tagline: "I craft clean, scalable & elegant digital experiences.",
+  tagline:
+    "I turn complex ideas into clean, responsive React interfaces with a focus on performance, accessibility & great design.",
   profileImage: Fahad,
-  resumePath: "/src/assets/Fahad Azhar.pdf",
-  resumeFileName: "Fahad_Resume.pdf",
+  resumePath: Resume,
+  resumeFileName: "Fahad-Resume.pdf",
 
   about: {
     title: "Front End Developer & React  Developer",
-    bio: "A highly motivated Front End Developer with 1.5+ years of experience building modern web applications. Passionate about clean code, elegant architecture, and user experiences that stand the test of time.",
+    bio: "A highly motivated Front End Developer with 1.5+ years of experience building modern web applications. I’m continuously deepening my skills to build modern, user-friendly web interfaces while staying updated with the latest tech trends.",
     highlights: [
       // "Backend expertise in Node.js, Express, and Python Flask — designing and optimising",
       "Scalable web  applications  with React, and modern cloud infrastructur RESTful APIs.e.",
@@ -38,7 +41,7 @@ export const DATA = {
       uni: "COMSATS University Islamabad Abbotabad",
       degree: "Bachelor of Science",
       major: "Software Engineering",
-      period: "Sep-2018 – May 2023",
+      period: "Sep-2018 – May 2022",
       courses:
         "Database Management, Web Technologies, AI, Machine Learning, Mobile App Dev, Data Structures, OOP",
     },
@@ -110,6 +113,18 @@ export const DATA = {
       name: "Bootstrap",
       url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
     },
+    {
+      name: "Material UI",
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+    },
+    {
+      name: "WordPress",
+      url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg",
+    },
+    {
+      name: "ShadCN",
+      url: "https://avatars.githubusercontent.com/u/139895814?s=200&v=4",
+    },
     // {
     //   name: "MySQL",
     //   url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
@@ -136,24 +151,25 @@ export const DATA = {
     {
       company: "Wise Tech Pakistan",
       role: "Front End Developer",
-      period: "Feb 2024 – Present",
+      period: "Feb 2025 – Present",
       points: [
-        "Built scalable web apps with React and Node.js, serving 50,000+ active users.",
-        "Designed RESTful APIs and optimised DB queries, reducing response time by 40%.",
-        "Led front-end development with React and Tailwind CSS, delivering pixel-perfect UIs.",
-        "Collaborated with cross-functional teams via Agile methodology.",
-        "Integrated payment gateways, authentication services, and third-party APIs.",
+        "Develop and maintain responsive, user-friendly web applications.",
+        "Translate UI/UX designs into functional and reusable components.",
+        "Integrate APIs and manage data rendering on the frontend.",
+        "Collaborate with backend developers and designers to deliver seamless solutions.",
+        "Debug, test, and fix cross-browser and cross-device compatibility issues.",
+        "Optimize application performance, speed, and accessibility.",
       ],
     },
     {
-      company: "Freelance",
-      role: "React & React Native Developer",
-      period: "Jun 2022 – Dec 2022",
+      company: "Eziline Software House",
+      role: "Front End Internee",
+      period: "Oct 2024 – Jan 2025",
       points: [
-        "Developed 10+ custom web and mobile apps for international clients.",
-        "Built cross-platform mobile apps with React Native and native API integration.",
-        "Implemented auth, payment processing, and third-party integrations.",
-        "Delivered on time with high satisfaction, earning repeat business.",
+        "Assist in developing and maintaining user-facing web applications.",
+        "Write clean, efficient, and reusable HTML, CSS, and JavaScript code.",
+        "Work with modern frameworks/libraries such as React.",
+        "Collaborate with designers to implement responsive UI/UX designs.",
       ],
     },
   ],

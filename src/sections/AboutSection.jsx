@@ -77,7 +77,7 @@ export default function AboutSection({ data }) {
               >
                 <span className="text-base w-5 flex-shrink-0">{emoji}</span>
                 <span
-                  className="font-ui text-xs w-20 flex-shrink-0
+                  className="font-ui text-xs w-21 flex-shrink-0
                                  text-light-subtle dark:text-dark-subtle"
                 >
                   {key}
