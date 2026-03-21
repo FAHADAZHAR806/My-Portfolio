@@ -179,7 +179,7 @@ export const DATA = {
       name: "E-Commerce Platform",
       emoji: "🛒",
       tech: "React · Node.js · MongoDB · Stripe",
-      date: "Mar 2023",
+      // date: "Mar 2023",
       link: "#",
       points: [
         "Full-stack e-commerce with cart & checkout.",
@@ -191,7 +191,7 @@ export const DATA = {
       name: "Social Media Dashboard",
       emoji: "📊",
       tech: "React · Firebase · Chart.js",
-      date: "Nov 2022",
+      // date: "Nov 2022",
       link: "#",
       points: [
         "Real-time analytics from multiple platforms.",
@@ -203,7 +203,7 @@ export const DATA = {
       name: "Healthcare Mobile App",
       emoji: "🏥",
       tech: "React Native · Node.js · MongoDB",
-      date: "Aug 2022",
+      // date: "Aug 2022",
       link: "#",
       points: [
         "Patient-doctor appointment management.",
@@ -215,7 +215,7 @@ export const DATA = {
       name: "AI Chat Assistant",
       emoji: "🤖",
       tech: "React · OpenAI API · Flask",
-      date: "Jan 2023",
+      // date: "Jan 2023",
       link: "#",
       points: [
         "GPT-powered chat with streaming responses.",
@@ -227,7 +227,7 @@ export const DATA = {
       name: "Social Network App",
       emoji: "👥",
       tech: "React · Vite · Supabase",
-      date: "Nov 2022",
+      // date: "Nov 2022",
       link: "#",
       points: [
         "Posts, likes, comments & profiles.",
@@ -239,7 +239,7 @@ export const DATA = {
       name: "Task Management Tool",
       emoji: "✅",
       tech: "React · Node.js · MySQL · Docker",
-      date: "May 2023",
+      // date: "May 2023",
       link: "#",
       points: [
         "Kanban boards with drag-and-drop.",
