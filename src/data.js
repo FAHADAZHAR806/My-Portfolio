@@ -1,4 +1,4 @@
-// ✏️  Edit all your personal content here
+//   Edit all your personal content here
 import Fahad from "./assets/picofme.png";
 import Resume from "./assets/Fahad Azhar.pdf";
 
