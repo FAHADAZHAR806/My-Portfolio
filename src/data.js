@@ -253,8 +253,8 @@ export const DATA = {
     email: "fahadkiyani28@email.com",
     phone: "+923415742411",
     whatsapp: "+923415742411",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/FAHADAZHAR806",
+    linkedin: "https://www.linkedin.com/in/fahad-azhar/",
   },
 };
 
