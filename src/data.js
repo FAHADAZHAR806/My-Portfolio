@@ -1,6 +1,6 @@
 //   Edit all your personal content here
 import Fahad from "./assets/picofme.png";
-import Resume from "./assets/Fahad Azhar.pdf";
+import Resume from "./assets/Fahad-Azhar.pdf";
 
 export const DATA = {
   name: "Fahad Azhar",
